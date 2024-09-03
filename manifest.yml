@@ -1,8 +1,8 @@
 ---
 applications:
-- name: CFTestFrontend
+- name: TasksFrontend
   instances: 1
-  host: CFTestFrontend{random-word}
+  host: TasksFrontend{random-word}
   path: .
   buildpacks:
     - php_buildpack
